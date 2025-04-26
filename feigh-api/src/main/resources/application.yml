@@ -1,0 +1,9 @@
+feign:
+  client:
+    config:
+      default:
+        logger-level: BASIC
+  httpclient:
+    enabled: true
+    max-connections: 15
+    max-connections-per-route: 5
